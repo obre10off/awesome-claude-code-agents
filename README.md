@@ -334,12 +334,3 @@ Agent system prompt...
 
 MIT License - see LICENSE file
 
-## 🙏 Acknowledgments
-
-- Inspired by the comprehensive agent collection from wshobson
-- Built for the Claude Code community
-- Special thanks to Anthropic for Claude Code
-
----
-
-**Remember**: These agents are here to make you a 10x developer. Use them liberally, and watch your productivity soar! 🚀

@@ -14,13 +14,21 @@ An elite collection of specialized AI sub-agents that transform Claude Code into
 
 ## 🎯 Overview
 
-This repository contains a carefully crafted collection of Claude Code sub-agents, each specialized in specific development tasks. These agents can:
+This repository contains a carefully crafted collection of Claude Code sub-agents and powerful slash commands, each specialized in specific development tasks. 
 
+### 🤖 Agents can:
 - 🔍 **Auto-activate** based on context
 - 🤝 **Collaborate** on complex tasks
 - 📈 **Improve code quality** dramatically
 - ⚡ **Accelerate development** speed
 - 🎨 **Extract design systems** from screenshots
+
+### 🎯 Commands provide:
+- 🏆 **Quality sprints** - Comprehensive code improvement
+- 🎨 **Design-to-code** - Transform mockups to components
+- 🚀 **Full-stack features** - Complete feature implementation
+- 🐛 **Debug workflows** - Systematic error resolution
+- 🔌 **API-first development** - Design-driven API creation
 
 ## 📦 Installation
 
@@ -36,6 +44,42 @@ cd awesome-claude-code-agents
 ```bash
 ls .claude/agents/*.md
 ```
+
+## 🎯 Slash Commands
+
+Powerful commands that orchestrate multiple agents for complete workflows:
+
+### `/quality-sprint`
+Comprehensive code quality improvement using multiple agents in sequence.
+```bash
+quality-sprint @src/     # Analyze and improve entire directory
+```
+
+### `/design-to-code` 
+Transform mockups into production components with extracted design systems.
+```bash
+design-to-code @mockup.png --framework react
+```
+
+### `/full-stack-feature`
+Implement complete features with backend, frontend, tests, and docs.
+```bash
+full-stack-feature "user authentication"
+```
+
+### `/debug-and-fix`
+Systematic debugging with root cause analysis and prevention.
+```bash
+debug-and-fix "TypeError: Cannot read property"
+```
+
+### `/api-first`
+Design-first API development with OpenAPI spec and full implementation.
+```bash
+api-first "user management API" --rest
+```
+
+[See all commands →](.claude/commands/)
 
 ## 🤖 Available Agents
 
